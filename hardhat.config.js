@@ -24,10 +24,6 @@ task("accounts", "Prints the list of accounts", async () => {
 module.exports = {
     solidity: "0.7.6",
     networks: {
-        ropsten: {
-            url: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
-            accounts: [`0x${process.env.ROPSTEN_PRIVATE_KEY}`]
-        },
         rinkeby: {
             url: `https://rinkeby.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
             accounts: [`0x${process.env.RINKEBY_PRIVATE_KEY}`]
