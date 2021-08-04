@@ -1,0 +1,24 @@
+{
+  "name": "xmrch-governance",
+  "version": "1.0.0",
+  "description": "xMRCH governance contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MerchDAO/xMRCH-governance.git"
+  },
+  "keywords": [
+    "governance",
+    "smart",
+    "contracts"
+  ],
+  "author": "MRCH team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MerchDAO/xMRCH-governance/issues"
+  },
+  "homepage": "https://github.com/MerchDAO/xMRCH-governance#readme"
+}
