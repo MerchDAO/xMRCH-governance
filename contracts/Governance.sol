@@ -2,13 +2,15 @@
 pragma solidity 0.7.6;
 pragma abicoder v2;
 
+import "./Ownable.sol";
+
 interface VoteInterface {
     function getPriorVotes(address account, uint blockNumber) external view returns (uint96);
 }
 
 contract Governor is Ownable {
     /// @notice The name of this contract
-    string public constant name = "MRCH Governor";
+    string public constant name = "xMRCH Governor";
 
     /// @notice Governance token with Vote Interface
     address public token;
